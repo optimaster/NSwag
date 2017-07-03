@@ -15,7 +15,7 @@ namespace NSwag.CodeGeneration.CSharp.Templates
     /// Class to produce the template output
     /// </summary>
     
-    #line 1 "C:\Data\Projects\NSwag\src\NSwag.CodeGeneration.CSharp\Templates\JsonExceptionConverterTemplate.tt"
+    #line 1 "C:\Users\chris\Documents\nswag\src\NSwag.CodeGeneration.CSharp\Templates\JsonExceptionConverterTemplate.tt"
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.TextTemplating", "15.0.0.0")]
     internal partial class JsonExceptionConverterTemplate : JsonExceptionConverterTemplateBase
     {
@@ -27,7 +27,7 @@ namespace NSwag.CodeGeneration.CSharp.Templates
         {
             this.Write("[System.CodeDom.Compiler.GeneratedCode(\"NSwag\", \"");
             
-            #line 2 "C:\Data\Projects\NSwag\src\NSwag.CodeGeneration.CSharp\Templates\JsonExceptionConverterTemplate.tt"
+            #line 2 "C:\Users\chris\Documents\nswag\src\NSwag.CodeGeneration.CSharp\Templates\JsonExceptionConverterTemplate.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(SwaggerDocument.ToolchainVersion));
             
             #line default
@@ -43,14 +43,14 @@ internal class JsonExceptionConverter : Newtonsoft.Json.JsonConverter
     {
         _searchedNamespaces = new System.Collections.Generic.Dictionary<string, System.Reflection.Assembly> { { typeof(");
             
-            #line 11 "C:\Data\Projects\NSwag\src\NSwag.CodeGeneration.CSharp\Templates\JsonExceptionConverterTemplate.tt"
+            #line 11 "C:\Users\chris\Documents\nswag\src\NSwag.CodeGeneration.CSharp\Templates\JsonExceptionConverterTemplate.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(ExceptionModelClass));
             
             #line default
             #line hidden
             this.Write(").Namespace, System.Reflection.IntrospectionExtensions.GetTypeInfo(typeof(");
             
-            #line 11 "C:\Data\Projects\NSwag\src\NSwag.CodeGeneration.CSharp\Templates\JsonExceptionConverterTemplate.tt"
+            #line 11 "C:\Users\chris\Documents\nswag\src\NSwag.CodeGeneration.CSharp\Templates\JsonExceptionConverterTemplate.tt"
             this.Write(this.ToStringHelper.ToStringWithCulture(ExceptionModelClass));
             
             #line default
